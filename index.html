@@ -3,9 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+
+    
+  </head>
+  <body>
+    <div class="container-h1">
+    <h1>Rock Paper Scissors </h1>
+    </div>
+
+    <div class="container-img">
+      <div class="card">
+    <img src="img/rock.png" alt="">
+    <button class="btn button-52 pink" id="rock">Rock</button>
+    </div>
+    <div class="card"> 
+      <img src="img/paper.png" alt="">
+    <button class="btn-paper button-52 blue" id="paper">Paper</button>
+    </div>
+    <div class="card">
+      <img src="img/scissorss.png" alt="">
+    <button class="btn button-52 yellow" id="scissors">Scissors</button>
+    </div>
+      </div>
+      <div class="container-reset">
+        <button class="button-51">Reset</button>
+      </div>
+     
+
+  <div class="container-score">
+    <div class="left-score">
+          <p>Player score:</p>
+          <p>0</p>
+    </div>
+   <div class="right-score">
+        <p>Computer Score:</p>
+        <p>0</p>
+   </div>
+  </div>
+
+  <div class="container-results">
+    <p class="game-ended-text">Game ended. Played 5 games and the winner is:</p>
+    <p class="winner-result"></p>
+  </div>
+
+  
+    
+
+
 
     <script src="script.js"></script>
-  </head>
-  <body></body>
+  </body>
 </html>

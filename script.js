@@ -1,16 +1,22 @@
 `use strict`;
 
-// to count scores
+// // to count scores
 let humanScore = 0;
 let computerScore = 0;
 let draws = 0;
 
-// ui function
-playRound();
-finalScore();
+// // ui function
+// playRound();
+// finalScore();
 
-// to count who wins
+// // to count who wins
+
 function finalScore() {
+
+  const matchs = humanScore + computerScore + draws
+
+
+  if (matchs === 5 ) {
   console.log(`Game ended. Played 5 games and the scores are:
 draws: ${draws}
 computer score: ${computerScore}
@@ -23,13 +29,14 @@ Human score: ${humanScore} `);
   } else {
     console.log(`its a draw booooring :| `);
   }
+} 
 }
 
-// playing the rounds
-function playRound() {
-  for (let i = 0; i < 5; i++) {
+
+function playRound(user) {
+  
     const computerC = getComputerChoice();
-    const humanC = getHumanChoice();
+    const humanC = user;
 
     if (
       (humanC == `rock` && computerC == `scissors`) ||
@@ -37,7 +44,7 @@ function playRound() {
       (humanC == `scissors` && computerC == `paper`)
     ) {
       alert(`you win!`);
-      humanScore++;
+      return humanScore++;
     }
 
     if (
@@ -46,7 +53,7 @@ function playRound() {
       (humanC == `scissors` && computerC == `scissors`)
     ) {
       alert(`you draw!`);
-      draws++;
+      return draws++;
     }
 
     if (
@@ -55,10 +62,10 @@ function playRound() {
       (humanC == `scissors` && computerC == `rock`)
     ) {
       alert(`you lose!`);
-      computerScore++;
+      return computerScore++;
     }
   }
-}
+
 
 // computer choice
 function getComputerChoice() {
@@ -84,3 +91,19 @@ function getHumanChoice() {
     }
   }
 }
+
+
+const rock = document.querySelector("#rock");
+const paper = document.querySelector("#paper");
+const scissors = document.querySelector("#scissors");
+
+
+
+
+rock.addEventListener("click", function(){
+
+    playRound("rock")
+    finalScore();
+
+    
+})
