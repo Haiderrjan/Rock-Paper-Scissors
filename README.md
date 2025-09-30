@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-ROCK PAPER SCISSOR IN THE WEB 
+Rock Paper Scissors game to be played in the web.
