@@ -165,4 +165,35 @@ function finalScore() {
 } 
 
 
+//RESET FUNCTION
+
+function resetbtn() {
+  
+  humanScore = 0;
+  computerScore = 0;
+  draws = 0;
+
+  player_score.innerHTML = 0;
+  computer_score.innerHTML = 0;
+
+
+  rock.disabled = false;
+  paper.disabled = false;
+  scissors.disabled = false;
+
+
+  if (document.contains(player_won)) {
+    player_won.remove();
+  }
+  if (document.contains(computer_won)) {
+    computer_won.remove();
+  }
+  if (document.contains(draw)) {
+    draw.remove();
+  }
+  if (document.contains(final_score)) {
+    final_score.remove();
+  }
+}
+
 
