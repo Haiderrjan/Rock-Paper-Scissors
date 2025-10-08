@@ -14,7 +14,7 @@ A browser version of the game Rock Paper and Scissors
 
 
 
-### Screenshots of game:
+## Screenshots Of The Game :
 
 ![image](https://github.com/Haiderrjan/Rock-Paper-Scissors/blob/8c1a03bb237a7f1b54f728bf8f5b4dff90cda70b/img/rock-paper-scissors-screenshot-one.png)
 
@@ -23,7 +23,7 @@ A browser version of the game Rock Paper and Scissors
 
 
 
-### Technology used 
+## Technology used 
 
 - HTML
 - CSS
