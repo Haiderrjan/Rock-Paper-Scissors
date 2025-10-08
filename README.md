@@ -16,9 +16,10 @@ A browser version of the game Rock Paper and Scissors
 
 Screenshots of game:
 
-![image] (https://github.com/Haiderrjan/Rock-Paper-Scissors/blob/8c1a03bb237a7f1b54f728bf8f5b4dff90cda70b/img/rock-paper-scissors-screenshot-one.png)
+![image](https://github.com/Haiderrjan/Rock-Paper-Scissors/blob/8c1a03bb237a7f1b54f728bf8f5b4dff90cda70b/img/rock-paper-scissors-screenshot-one.png)
 
-![image] (https://github.com/Haiderrjan/Rock-Paper-Scissors/blob/8c1a03bb237a7f1b54f728bf8f5b4dff90cda70b/img/rock-paper-scissors-screenshot-two.png)
+![image](https://github.com/Haiderrjan/Rock-Paper-Scissors/blob/8c1a03bb237a7f1b54f728bf8f5b4dff90cda70b/img/rock-paper-scissors-screenshot-two.png)
+
 
 
 
